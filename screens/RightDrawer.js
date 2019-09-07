@@ -22,7 +22,7 @@ class RightDrawer extends Component {
     return (
       <View style={{backgroundColor: 'white', flex: 1}}>
         <ScrollView
-          style={{height: '100%', width: '100%', backgroundColor: 'light blue'}}>
+          style={{height: '100%', width: '100%', backgroundColor: 'lightblue'}}>
           {this.state.categories.map(key => {
             return (
               <TouchableOpacity
